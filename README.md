@@ -20,7 +20,7 @@ Questa implementazione non è altro che un punto di partenza in quanto la strutt
   - Scambio chiavi: `mlkem512` (basato su Kyber512)
   - Cifratura simmetrica: `ChaCha20-Poly1305` (AEAD)
 + **RSA + AES-256-CBC** (versione legacy per confronto)
-+ ** C (POSIX/Linux) con `pthread`, `sched`, `signals`
++ **C (POSIX/Linux) con `pthread`, `sched`, `signals`**
 
 ## 📁 Componenti
 🔹 `server_pq.c` / `client_pq.c`
