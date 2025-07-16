@@ -12,7 +12,7 @@ Questo progetto implementa un sistema client-server sicuro basato su primitive P
 + **Segnalazione di errori e backtrace in caso di crash**
 
 ## 🔐 Obiettivo
-Questa implementazione non è altro che un punto di partenza in quanto la struttura qua sviluppata sarà ampliata, in modo da replicare un client onion-like, con entry, guard ed exti node. L'obiettivo sarà, quindi, andare a valutare le performance delle primitive post-quantum integrate in un contesto real-time e multiclient, confrontandole con soluzioni legacy.
+Questa implementazione non è altro che un punto di partenza in quanto la struttura qua sviluppata sarà ampliata, in modo da replicare un client onion-like, con entry, guard ed exit node. L'obiettivo sarà, quindi, quello di valutare le performance delle primitive post-quantum integrate in un contesto real-time e multiclient, confrontandole con soluzioni legacy attualmente in uso.
 
 ## 🔐 Tecnologie e Primitive Utilizzate
 
