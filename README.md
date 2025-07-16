@@ -1,2 +1,10 @@
-# ClientServerArch-in-RT-and-PQ
-A small client-server architecture in real time. Between the two different versions there are changes in the cryptorgaphic primitives used, quantum-vulnerable and post-quantum.
+# ClientServerArch-in-RT-e-PQ
+Questo progetto implementa un sistema client-server sicuro basato su primitive Post-Quantum per lo scambio di chiavi (Key Encapsulation Mechanisms) e per la cifratura/autenticazione dei messaggi. Il sistema include anche una versione real-time multithreaded, con supporto per:
+
++ Scheduling a priorità reale (SCHED_FIFO)
+
++ Log di timestamp per misurazioni RTT
+
++ Gestione concorrente di più client
+
++ Segnalazione di errori e backtrace in caso di crash
